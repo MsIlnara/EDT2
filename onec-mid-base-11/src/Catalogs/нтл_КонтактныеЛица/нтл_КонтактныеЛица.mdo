@@ -10,7 +10,7 @@
   <name>нтл_КонтактныеЛица</name>
   <synonym>
     <key>ru</key>
-    <value>Нтл контактные лица</value>
+    <value>Контактные лица</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.нтл_КонтактныеЛица.StandardAttribute.Code</inputByString>
@@ -56,6 +56,10 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
